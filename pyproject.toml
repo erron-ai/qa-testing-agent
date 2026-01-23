@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qa-testing-agent"
+version = "0.1.0"
+description = "Test case generation, regression runs, flaky test detection, and CI/CD integration."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/qa-testing-agent"
+Issues = "https://github.com/erron-ai/qa-testing-agent/issues"
+
+[project.scripts]
+qa-testing-agent = "qa_testing_agent.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
