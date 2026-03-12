@@ -2,7 +2,7 @@
 
 Test case generation, regression runs, flaky test detection, and CI/CD integration.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
